@@ -77,7 +77,7 @@ const Home = () => {
           {/* Right Section: Image Boxes and Center Circle */}
           <div className="right-section">
             <div className="headlbimgs">
-              <img src="public/gridimg.png" alt="gridimg" />
+              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fphotos%2Ftree-sunset-clouds-sky-silhouette-736885%2F&psig=AOvVaw3_7Fw8ZDW0Yifwv7UQrot7&ust=1742512450638000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND_nIKjl4wDFQAAAAAdAAAAABAE" />
             </div>
           </div>
         </div>
