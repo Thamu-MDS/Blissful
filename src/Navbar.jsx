@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Left side: Logo */}
       <div className="logo">
-        <img src="public/blissfullogo.png" alt="Logo" className="img1" />
+        <img src="https://media-hosting.imagekit.io//09149c8e03024ab7/blissfullogo.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZpwNLh3LhiJ-fkhJT5i~9miLK6L~X9gWbjSL0Xz7OzXcm0TUdQ6bXT4uQZel4ioAjJAFxAeGv19-BMFmxpzCauIiQC1SqbSJ3M1OVNVRQmvhGziLrO6Rhf4idK7Y4GkzaehmuuYCEoCInncWI3eEDA2nGumDXZEY~--DpVgyrpGR332MCy1quJz1hAfin0y2KFi2daBQ~hblXdZM4bvwnqdH8PCSWB8AXoC-JxH-fOAWf7RyQRk7uTRNdgTlhebBmek3KYaVYHbUpGdCQyu3YesmsRUgw94u~Rss22YlKCQ4MirsOvbsfJ8oWZSUPE8r94-b3DUkmPzSdsJhPMyPtA__" alt="Logo" className="img1" />
       </div>
 
       {/* Center: Navigation Links */}

@@ -46,7 +46,6 @@ const Home = () => {
 
       <div className="homehero">
         <a href="/Footer" className="hero-button">
-          View More
         </a>
       </div>
 
@@ -77,7 +76,7 @@ const Home = () => {
           {/* Right Section: Image Boxes and Center Circle */}
           <div className="right-section">
             <div className="headlbimgs">
-              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fphotos%2Ftree-sunset-clouds-sky-silhouette-736885%2F&psig=AOvVaw3_7Fw8ZDW0Yifwv7UQrot7&ust=1742512450638000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND_nIKjl4wDFQAAAAAdAAAAABAE" />
+              <img src="https://media-hosting.imagekit.io//59a1e0d9c4f74df1/gridimg.png?Expires=1837316590&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UsXVvBDGSkRYKqBchh96h9NnHQkkBxrlh5KLK1Xcsw4vmn7ws03rPF9AWaM9wtOdc3v5uxqSN9Sfd0JioUXikGldPQz5CgVsx8rQqJdHCye7xHaBhqKbNbKjykrZdADotN9zQAYNBsH94fcsbDN8JEGs8lOuyN5oMuRDbcV-6PG8ashsxdUIERpG6M6HlQtBviLCQSsB2Uv6RJPlZUYWOVJfqznjgbevWnu0G8-J6nzkCE0v2uYsZyEaq4Ho41ScgWrVe-SebJn4e8UseJhPO81MDyAnENYRwSS29Olw-taumEEWAmjrZ9cfk3m~XDR~yARQJiAEF4VbxHQULwUw3A__" />
             </div>
           </div>
         </div>
@@ -89,7 +88,7 @@ const Home = () => {
         <div className="headingprojb">
           <div className="headingprojb1">
             <img
-              src="public/png1.png"
+              src="https://media-hosting.imagekit.io//b525641d16d4473e/png1.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ttb4147paqpqiV7Fty2bhWyxowYj~k~-iyLJdURTS2Ob4FXrUuzCb5MX0ln1C2EPj1DdV~1wzcRsHDunnQIJgkzJ7KQOS1r7zkegcoTw4q3nRwtYRGD9wxr8aJuASPK3YKBAMymVIamGSlVm0VxACMuPQ4bJj5YdOZtyeuriKWmrQDfOWb4wAgBW55hveGrVoCS15YCQPoQTceH6tOooi8U22tGWqqgEbEaB-nLJSU9t2jUllwJ2pAcbV0iRkquRGl6MCWSYfyHCIE56aE5MQOQ-7n-hO~OpqtwnJIQhbzgOUMpfgvF9qeyoWw~b28Vn-hbykTPJP1igmivqxHkxsQ__"
               alt="Image 1"
               className="headingprojb1img"
             />
@@ -100,7 +99,7 @@ const Home = () => {
           </div>
           <div className="headingprojb1">
             <img
-              src="public/png2.png"
+              src="https://media-hosting.imagekit.io//4b1dc287904a4eb6/png2.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=njzFiH6mzqpRoV5QSDbVwBStX0uU0MClzNXSpjMU89Y8TCuqdaWN-cMAaSpoE35wEhiZ-CnUBJskf9o-Vxyapbc39Ck~AAXC9drki8cGg7ELof464JCsb2~7igTdlQ1DlDwg00akczxX9uTsUunLHLsihR4BQIjyPWm2RG3gKygY1tVVYjH47ddLHrqtQojM5EWZsLp1h2eZPF3FC-NDd~5BDe6HvKhTOIZHJ1FIPdQtUHukn9Aeu9sG4hR3-q4zWukovuGU5xsyvoA2uga-ZnvY9dR40BSMHNT5YXMXVfPFbJH0Zid8AKO2KLEQ1norQkXbAeUbxg0D7eUJpV-NEg__"
               alt="Image 2"
               className="headingprojb1img"
             />
@@ -108,7 +107,7 @@ const Home = () => {
           </div>
           <div className="headingprojb1">
             <img
-              src="public/png3.png"
+              src="https://media-hosting.imagekit.io//90d349dd23d049be/png3.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rasM6F9DyC1e0WRuTJloLIpQtqCj840W-twp2ogK5lrq~1Wp3T1wx98qD-avOmLfvEEKvNNxBpTnQtqCe3DB0XSGR0vwZodt8gYK7zzH73jmKYNQuZbJhiD7Gh7XSJpWq35TCLfYm1wd1YfH9EBOjW7wchS1Zm4-cRklMBAtmn7-qupFvgHg72AxOZEDub2pnhPuEzPcvZsy5GGa7WG3Z7WPFXndzm1hKjYxHFYmvLDxKylxuNtDDpA2Qf7Drvk5m-WF7~TANNKlBywjN7vtKi~LRwLIpQkd4pdUYdZE5-spaSZVtwuT8xvHYUSEOtmDKpR-HomZcYy0QJlv3-vaFw__"
               alt="Image 3"
               className="headingprojb1img"
             />
@@ -116,7 +115,7 @@ const Home = () => {
           </div>
           <div className="headingprojb1">
             <img
-              src="public/png4.png"
+              src="https://media-hosting.imagekit.io//58714d777ce44105/png4.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=W1ymkA-pUhdjyLV-R1AJcQIlwoJT-i5c5SBjSXYCZ1e4W1ifkcsfyr68UjXVL5F1N~FNEFtwYJvET3WixyLHWV0Gu0DgZKLh6PeUjIE~NXs6wji-uQAeJ-R6DoNlIM1lKi1NOhBVcstTMcSO4Vgv0n4SQYDEiECOa0co5hvLzoo3NeHcQxXySiuLjU9s-U-sMakNFi5fR1m5HStoAnWIQ2jMqjOuDSfjHu70prFVS4sYMHZDCUpTXTLK9n4zgzTDoO08S7oCyUnaM132bEbzTy63WktvgLTbnB0WQOC4ApbVgSEI1ipoTPPoafPxNkaASONH38L0VOiK7g23woBqhg__"
               alt="Image 4"
               className="headingprojb1img"
             />
@@ -138,116 +137,44 @@ const Home = () => {
             <button className="header-button">More Services</button>
           </a>
         </div>
-      <div className="cards-container">
-        <div className="product-card1" >
+        <div className="cards-container">
+          <div className="product-card1" >
             <div className="card-content">
-                <h2 className="card-title">PHOTOGRAPHY</h2>
-                <div className="card-description">
-                    <p>A powerful magic—the ability to capture and preserve memories</p>
-                </div>
-                <div className="card-actions">
-                    <button className="book-now">BOOK NOW </button>
-                    <button className="view-more">More Like This → </button>
-                </div>
+              <h2 className="card-title">PHOTOGRAPHY</h2>
+              <div className="card-description">
+                <p>A powerful magic—the ability to capture and preserve memories</p>
+              </div>
+              <div className="card-actions">
+                <button className="book-now">BOOK NOW </button>
+                <button className="view-more">More Like This → </button>
+              </div>
             </div>
-        </div>
-        <div className="product-card2" >
+          </div>
+          <div className="product-card2" >
             <div className="card-content">
-                <h2 className="card-title">Product 2</h2>
-                <div className="card-description">
-                    <p>This is product 2 description.</p>
-                </div>
-                <div className="card-actions">
-                    <button className="book-now">BOOK NOW </button>
-                    <button className="view-more">More Like This →</button>
-                </div>
+              <h2 className="card-title">Product 2</h2>
+              <div className="card-description">
+                <p>This is product 2 description.</p>
+              </div>
+              <div className="card-actions">
+                <button className="book-now">BOOK NOW </button>
+                <button className="view-more">More Like This →</button>
+              </div>
             </div>
-        </div>
-        <div className="product-card3" >
+          </div>
+          <div className="product-card3" >
             <div className="card-content">
-                <h2 className="card-title">Product 3</h2>
-                <div className="card-description">
-                    <p>This is product 3 description.</p>
-                </div>
-                <div className="card-actions">
-                    <button className="book-now">BOOK NOW </button>
-                    <button className="view-more">More Like This →</button>
-                </div>
+              <h2 className="card-title">Product 3</h2>
+              <div className="card-description">
+                <p>This is product 3 description.</p>
+              </div>
+              <div className="card-actions">
+                <button className="book-now">BOOK NOW </button>
+                <button className="view-more">More Like This →</button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -264,16 +191,16 @@ const Home = () => {
 
       <hr />
       <h1 className="heading">Let our clients Speak for us</h1>
-    <div className="page-container">
+      <div className="page-container">
         {/* Heading at the top */}
-       
+
 
         {/* Main content container */}
         <div className="main-container">
           {/* Left side (image) */}
           <div className="left-side">
             <img
-              src="public/young-attractive-handsome-guy-feels-delighted-gladden-amazed-min_ccexpress 1.png"
+              src="https://media-hosting.imagekit.io//56295751e85b4bbb/young-attractive-handsome-guy-feels-delighted-gladden-amazed-min_ccexpress%201.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=PRMHBJSkkZjnGQThMFfJ5j83YjaVfJsErAmAGePTC72jF68xxg-UK7wpfzN~JRq6t8DB-DD5lCG~p3vmN5~buzXccTJ0n0MBk6eDqXDcZeW3AO6DztCQ-lZns~1I4XeV7RK7Nd5SyJS-b0SepoMCizePPVrcuqVGfFPCRoQpSE5hg2DuOyIJex67QOYm5ZHAqfTPd5Fc0WCx~IpRnP37HkgMqqzEubvHgBJlhSRY96y-Czb0PBe3O0ppN8N7it6K~UKD1Iv2yYmjS6dPLoMXAW3xTOu2uyuv2pKqHUCEEP9sCrwAgYXHhB8tFyvgmUu~vwNdcfyHswlYF0fr8AIxlQ__"
               alt="Placeholder"
               className="image"
             />
@@ -319,8 +246,8 @@ const Home = () => {
           <button className="buttonp">Click Me</button>
         </div>
       </div>
-<hr />
-<h1 className="faqh">Frequently Asked Questions</h1>
+      <hr />
+      <h1 className="faqh">Frequently Asked Questions</h1>
       <div className="grid-containerf">
         <div className="grid-boxf">
           {items.map((item, index) => (

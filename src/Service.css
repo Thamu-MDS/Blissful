@@ -437,6 +437,11 @@
   .hero p {
       font-size: 0.8rem; /* Further reduce paragraph size */
   }
+  .service-imgt{
+    width: 100%;
+    height: 20rem;
+
+  }
 
   .know-more-btn1,
   .know-more-btn2,
@@ -456,6 +461,15 @@
   .book-now-btn6,
   .book-now-btn7 {
       font-size: 14px; /* Smaller button text */
+  }
+  .right-img1 img,
+  .right-img2 img,
+  .right-img3 img,
+  .right-img4 img,
+  .right-img5 img,
+  .right-img6 img,
+  .right-img7 img {
+      width: 100%; /* Full width for images */
   }
 
   .left-img1 img,

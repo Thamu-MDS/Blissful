@@ -70,7 +70,7 @@ const Contact = () => {
       <div className="grid-contact">
         <div className="content-box">
           <h1>Contact <b>Us</b></h1>
-          <img src="public/contactheadimg.jpg" alt="" className="cantact-head-img" />
+          <img src="https://media-hosting.imagekit.io//7cb7dd4aba604837/contactheadimg.jpg?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qOJe4Nfsuu-XzXoqa4fOFeafOqueZjVX3F4-NwEdFVdJpkkooVQLHfayVu57-g2f8OPsxzVMSJSoOWYd1lFlUn17SjknV-NRJuqyYGznF6YJAPbs2I5KZbQXb06bRpw4NqOkkopssjuW7YACiTKlGbiPxsM10-0tp3W4AEdoyLlxP~kygEYnuElNJ1Jpi-ZEsIF6HLSuPZ9orUF6Za16uS07JD4TzkwWPBn2mIlvIPVXVQyxusBSNsi~bFhoJfKkRtzmetXrvVIhHDM4TpQ9~SSGJwvlXcEqUWTHbGGu8-RQcbGGBIgDJoB943sgwmtRrYPGAASu2Ayim6t01f4L-w__" alt="" className="cantact-head-img" />
         </div>
       </div>
 
@@ -180,7 +180,7 @@ const Contact = () => {
             <div className="social-icons">
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="public/social 3.png"
+                  src="https://media-hosting.imagekit.io//576397c93e604ef7/social%203.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=f6fKcRM7uqZqK1GdsO8kp~R2wVsDBk0tV3RDWOGKAtC6e8r81H-B1S9kPIfPGgAho43~QQNkAUSRPVdWepOgONktc~RZWailVZCk8p8RR7BoMnVdCle83s-veaUlTLjO57YBzBKDEhyctYoCol-QBfjgX1U3dvR3lVl7kb671JV-OOyJsMRTv3Y-8z2vnfNbC6sGEm8a5CY8cSArXHUpjJuor0kwv7d5NJlVeflk4KOl-IxxBDsRHYJVMxZs5Ixg8aKTMVwQszDqUGHr8w1Jq8KzsisEKs4~2MUdO3mcOBZCIlzaWWhkOtBR-1vzctWhsqK3lQw0GntFsPaZEUXRCg__"
                   alt="Facebook"
                   width="30"
                   height="30"
@@ -188,7 +188,7 @@ const Contact = () => {
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="public/social2.png"
+                  src="https://media-hosting.imagekit.io//0af7aa29b2c74a0a/social2.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=QI2vaszH3twLQrCHhzoDqnOWiRGSkdPRRDhe~orszG218CK-aradzc7dFfvo3vdPJZ5zHNJaxtYbMwWp33OBeP~f44KAuFNMdANoGQdfROKcAeR3SGC3pNZjKQssYJaHt~3JZRLOI27x2pumd9JQWZ45MbR-LfooVqVrTjKmLxfyD5Tj~CjcnPytHfC3483VgPUoWxMg3a5ICdlyVkybt~0WIsekJfBfIdGFG87VtO2HOc19wytg~Js2OlUc4Mflb3VV2bow4JCuLNxqpVffbJ5uadkZOOIfTUiUhSDvW-gCH3yZ-xdaJVAndsnvrx3vTdTLhhYtRyJVvwRZXz6ZfQ__"
                   alt="Twitter"
                   width="40"
                   height="40"
@@ -196,7 +196,7 @@ const Contact = () => {
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="public/social1.png"
+                  src="https://media-hosting.imagekit.io//281ee864adfe4f9a/social1.png?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qXeQS7sIVUhxrrhQcAYMQjuFYB8xWr5he1vD52QSc3F9QiW4iGKJOuNayuDuIlJuqxxc8yWK-BSnVKA3WOSQcBx3RH3k2GyFmRALJTqtXM2774mzZNEVlsqdqgAcVYwWzvg1dJ~abyPoaR~BufngqGhjUnMPo-XlqLWZu4PodVmf08eYEseja-2Idae8TvW5HZ03UGRHWepwkDBEy-FC29aJZA2T5j7T~bBJvnp1pAiPPUW1OC-qEqgUEg~1WBQn7CjHO5MSK8Km9OP7qEebRLo6V3TTkPOLcIBaA6bIuGUoqsTlPZWj5CmViNH9YQgP4rpR5QV92ouC1KzO9ugYZA__"
                   alt="Instagram"
                   width="30"
                   height="30"

@@ -445,23 +445,25 @@
     width: 100%;
     height: auto;
   }
+  .hero-content p{
+    font-size: 0.5rem;
+  }
 }
 
 .App {
   font-family: Arial, sans-serif;
   padding: 20px;
-  height: 100px;
+
 }
 
-.content {
-  margin-bottom: 20px;
-}
 
 .abts5 {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
   gap: 20px;
   height: 3rem;
+  height: fit-content;
+bottom: 0%;
 }
 
 .abts5box {
@@ -488,19 +490,23 @@
 
   .ourstorytext {
     max-width: 1000px;
-    background-color: #a7973c;
+   text-align: justify;
     font-size: 20px; /* Decrease text size on smaller screens */
   }
 }
 
 @media (max-width: 768px) {
   .abtbg h1 {
+    margin-top: 40px;
+    top: 100px;
     font-size: 2.5rem; /* Smaller heading */
   }
 
   .abtbg p {
-    width: 470px;
-    font-size: 1rem; /* Smaller paragraph */
+
+    width: 300px;
+    font-size: 1rem; 
+   
   }
 
   .abts2text {
@@ -524,29 +530,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  .abtbg h1 {
-    font-size: 2rem; /* Further reduce heading size */
-  }
-
-  .abtbg p {
-    background-color: #007bff;
-    font-size: 1rem; /* Further reduce paragraph size */
-  }
-
-  .abts3item {
-    height: auto; /* Allow height to adjust */
-  }
-
-  .manwithphotobutton {
-    width: 100%; /* Full width for buttons */
-  }
-
-  .ourstorytext {
-    background-color: #bebebd;
-    font-size: 5px; /* Further decrease text size */
-  }
-}
 
 @media (min-width: 400px) and (max-width: 700px) {
   .abtbg h1 {
@@ -562,11 +545,15 @@
     gap: 5rem; /* Adjust spacing */
     padding: 10px;
   }
+  .abts2text h2{
+    font-size: 2rem;
+
+  }
 
   .abts2text {
     width: 90%; /* Increase width for smaller screens */
-    font-size: 1.6rem; /* Adjust text size */
-    text-align: center;
+    font-size:small; /* Adjust text size */
+    text-align: left;
   }
 
   .abts2video {
@@ -592,10 +579,17 @@
     flex-direction: column;
     align-items: center;
   }
+  .whychooseus {
+    padding-top: 30px;
+    text-align: center;
+   
+    font-size: 0.8rem;
+   
+  }
 
   .ourstorytext {
     font-size: 1.2rem; /* Adjust text size */
-    text-align: center;
+    text-align: justify;
     max-width: 90%;
   }
 
@@ -621,7 +615,8 @@
   }
 
   .abts5 {
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Two columns */
     gap: 15px;
   }
 
@@ -629,4 +624,5 @@
     font-size: 1rem;
     text-align: center;
   }
+
 }
