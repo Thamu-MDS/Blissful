@@ -37,7 +37,7 @@
 .content p {
   font-size: 1.2rem;
   color: #555;
-  
+
 }
 
 .content ul {
@@ -92,6 +92,7 @@
   color: #555;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .grid-paragraph b {
   color: #000000;
 }
@@ -120,15 +121,18 @@
 /* Responsive Design */
 @media (max-width: 1024px) {
   .headbl1 {
-    grid-template-columns: 1fr; /* Stack content on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack content on smaller screens */
   }
 
   .left-section {
-    width: 90%; /* Make left section more flexible */
+    width: 90%;
+    /* Make left section more flexible */
   }
 
   .right-section {
-    width: 90%; /* Make right section more flexible */
+    width: 90%;
+    /* Make right section more flexible */
   }
 
   .grid-heading {
@@ -141,7 +145,8 @@
   }
 
   .headlbimgs {
-    grid-template-columns: repeat(2, 1fr); /* Stack images vertically */
+    grid-template-columns: repeat(2, 1fr);
+    /* Stack images vertically */
   }
 
   .headlbimg {
@@ -158,7 +163,8 @@
 
 @media (max-width: 768px) {
   .headbl1 {
-    grid-template-columns: 1fr; /* Stack content on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack content on smaller screens */
   }
 
   .grid-heading {
@@ -172,7 +178,8 @@
   }
 
   .headlbimgs {
-    grid-template-columns: 1fr; /* Stack images vertically on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack images vertically on smaller screens */
   }
 
   .headlbimg,
@@ -205,7 +212,8 @@
   .headlbimg3 {
     width: 100%;
     height: auto;
-    padding-top: 56.25%; /* Maintain aspect ratio */
+    padding-top: 56.25%;
+    /* Maintain aspect ratio */
   }
 
   .center-circle {
@@ -262,40 +270,49 @@
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .headingprojb {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns for tablets */
   }
 
   .grid-heading {
-    font-size: 2rem; /* Slightly smaller heading */
+    font-size: 2rem;
+    /* Slightly smaller heading */
   }
 
   .headingprojb1img {
-    width: 4rem; /* Smaller images on tablets */
+    width: 4rem;
+    /* Smaller images on tablets */
     height: 4rem;
   }
 
   .grid-item-name {
-    font-size: 1rem; /* Smaller text on tablets */
+    font-size: 1rem;
+    /* Smaller text on tablets */
   }
 }
 
 @media (max-width: 768px) {
   .headingprojb {
-    grid-template-columns: 1fr; /* 1 column on mobile */
-    gap: 15px; /* Reduced gap between items */
+    grid-template-columns: 1fr;
+    /* 1 column on mobile */
+    gap: 15px;
+    /* Reduced gap between items */
   }
 
   .grid-heading {
-    font-size: 1.8rem; /* Even smaller heading on mobile */
+    font-size: 1.8rem;
+    /* Even smaller heading on mobile */
   }
 
   .headingprojb1img {
-    width: 3.5rem; /* Smaller images on mobile */
+    width: 3.5rem;
+    /* Smaller images on mobile */
     height: 3.5rem;
   }
 
   .grid-item-name {
-    font-size: 1rem; /* Adjust font size for names on mobile */
+    font-size: 1rem;
+    /* Adjust font size for names on mobile */
   }
 
   /* Optional: Make the text more readable */
@@ -306,20 +323,24 @@
 
 @media (max-width: 480px) {
   .grid-heading {
-    font-size: 1.5rem; /* Further reduced font size for very small screens */
+    font-size: 1.5rem;
+    /* Further reduced font size for very small screens */
   }
 
   .headingprojb1img {
-    width: 3rem; /* Further reduced image size */
+    width: 3rem;
+    /* Further reduced image size */
     height: 3rem;
   }
 
   .grid-item-name {
-    font-size: 0.9rem; /* Smaller font size for names */
+    font-size: 0.9rem;
+    /* Smaller font size for names */
   }
 
   .hprojs {
-    padding: 20px 10px; /* Reduce padding for smaller devices */
+    padding: 20px 10px;
+    /* Reduce padding for smaller devices */
   }
 }
 
@@ -372,17 +393,20 @@
 
 @media (max-width: 1024px) {
   .grid-images {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns on smaller screens */
   }
 }
 
 @media (max-width: 768px) {
   .grid-images {
-    grid-template-columns: 1fr; /* One column on mobile */
+    grid-template-columns: 1fr;
+    /* One column on mobile */
   }
 
   .section-heading {
-    font-size: 1.8rem; /* Smaller heading on mobile */
+    font-size: 1.8rem;
+    /* Smaller heading on mobile */
   }
 }
 
@@ -396,14 +420,17 @@
 .cards-container {
   display: flex;
   justify-content: space-around;
-  gap: 125px;;
+  gap: 125px;
+  ;
   padding: 20px;
 }
 
 .product-card1 {
   background-image: url("https://media-hosting.imagekit.io//18ac3b24fd4b4f18/cemaraphoto.jpg?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VpbZ8YzmbdxjwUl3FHNSh3QMSQEZrf5uAM6LsC5wulVeRwau4iUrNcbq0TZU~IDBHGf812AhHp~JyV0lM-xfplBg7IQiL1IuvYcAI937MpDdIYPkFgPT3CTtpanoOFOZxYYu1qsS5ow3Ah3u8CTjZeUkkjSVTii4vQcz8M9cHu7l~4NeVsvSTFRzBPYp-XycJqWFW0VpXVAca0l0xtv4KO1uJuY3XQfDeX9V6~ASl1KvuOTKqz3ZXpyjbz2E8zmmiqhU3ret7r-w5hdA9GDXUaB-Kz6KiC7bsO5CiDs4ckIMHQTcCQ9P7KyoHg6DtEeSPsrhcSYRFnsO~ZyG1-kMIw__");
-  height: 35rem; /* Increased height to fit buttons */
-  width: calc(33.33% - 20px); /* Adjusted for margins */
+  height: 35rem;
+  /* Increased height to fit buttons */
+  width: calc(33.33% - 20px);
+  /* Adjusted for margins */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -414,10 +441,13 @@
   background-color: aqua;
 
 }
+
 .product-card2 {
   background-image: url("https://media-hosting.imagekit.io//7bed2a0b13564003/cemaraphoto2.jpg?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=u6fqr74XQHCA8DllpzfRmSGBo3yc08QY4ullq7KgODZU1gWSW-6Qwf6syIoX23xYEQZL71THtwcg4E4~Tt8wU~IoETWh5lsYxoJjwXD9Vhrx9MUJ4C3Fik4qRZgmZB5HlGtrBFotvFnOgGl5iZS~MuHQ6zpZ0~xl~xPtyKqenTsSclxj1uTVKqS~Sd0i6aBIMnbNlE~iJu6y3a3XkjRURPpTk-0NZuTv0L6L8CMtXA4R4PdZSDDBtoRvk9NP~ONuX1TJIS5P8JLordKKL1A9CNuFJwewFSPvReg8u23WNd2JvArQwdPwGgUPEaw3s7u0jaLxSCN2hpaMdm8jbUTCWA__");
-  height: 35rem; /* Increased height to fit buttons */
-  width: calc(33.33% - 20px); /* Adjusted for margins */
+  height: 35rem;
+  /* Increased height to fit buttons */
+  width: calc(33.33% - 20px);
+  /* Adjusted for margins */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -428,10 +458,13 @@
   background-color: aqua;
 
 }
+
 .product-card3 {
   background-image: url("https://media-hosting.imagekit.io//8531b01b681f44b3/decorationpic.jpg?Expires=1837316891&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=OaElR2InmGFQGYSuRxoa-7AY9ujqJQqy56dFA2f0Q2M6J9qBIHd9DTi1hXl3DlpzTV6qTCv79XUnB4BYsgJRdrVzYR0V2v2TfjvBwAUjJ8GW9MdUaDFqvjDsqZWT6wbWWJeZLJ98GaauGmKAfqk3OfzsJvkv1sSsd7v7f8BABDJlrdJoowvOtxyr5QR-L31rHAIpvFo3CcoVxXqkf17SiLg4ZHsE06yF5KhDYJYpB7aP3UWm4lQT3tTJ~I1MA8beoKvnjKTO2Op6sdSvpS2UyvGEvHS03UegY5eYfEAH2KOiVI47KivhLKtmkqIqy1NfHYPEY-CpwJrw1kVz5QqLgw__");
-  height: 35rem; /* Increased height to fit buttons */
-  width: calc(33.33% - 20px); /* Adjusted for margins */
+  height: 35rem;
+  /* Increased height to fit buttons */
+  width: calc(33.33% - 20px);
+  /* Adjusted for margins */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -452,21 +485,27 @@
 .card-title {
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 40px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .card-description {
-  margin-top: 60px; /* Adjust based on title size */
+  margin-top: 60px;
+  /* Adjust based on title size */
   padding: 0 20px;
+  letter-spacing: 0.4rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  font-size: larger;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card-actions {
   position: absolute;
   bottom: 50px;
   width: 90%;
-  padding:0 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -477,7 +516,8 @@
   border: none;
   padding: 10px 0px;
   cursor: pointer;
-  width: 40%;
+  margin-left: 10px;
+  width: 150px;
 }
 
 .view-more {
@@ -486,6 +526,10 @@
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.headin-m {
+  text-align: center;
 }
 
 /* Optional: Make it responsive for smaller screens */
@@ -509,16 +553,19 @@
     grid-template-columns: repeat(2, 1fr);
     height: auto;
   }
+
   .header-button {
     display: inline-block;
     margin-left: 50%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .headingpho {
     grid-template-columns: 1fr;
     height: auto;
   }
+
   .header-button {
     display: inline-block;
     margin-left: 50%;
@@ -531,6 +578,7 @@
   color: #333;
   margin-bottom: 20px;
 }
+
 /* Page Container */
 .page-container {
   font-family: Arial, sans-serif;
@@ -553,7 +601,8 @@
 /* Left Side (Image) */
 .left-side {
   flex: 1;
-  max-width: 40%; /* Ensuring image doesn't stretch too wide */
+  max-width: 40%;
+  /* Ensuring image doesn't stretch too wide */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -581,12 +630,14 @@
 
 .right-side b {
   font-size: 1.2rem;
-  color: #000000; /* Brand color for emphasis */
+  color: #000000;
+  /* Brand color for emphasis */
 }
 
 .right-side p:last-child {
   font-size: 1rem;
-  color: #80dbb1; /* Slightly muted color for secondary text */
+  color: #80dbb1;
+  /* Slightly muted color for secondary text */
 }
 
 /* Responsive Styles */
@@ -601,7 +652,8 @@
   }
 
   .right-side {
-    padding-left: 0; /* Remove left padding on smaller screens */
+    padding-left: 0;
+    /* Remove left padding on smaller screens */
   }
 
   .right-side p {
@@ -611,11 +663,13 @@
 
 @media (max-width: 768px) {
   .right-side b {
-    font-size: 1.1rem; /* Smaller name font on mobile */
+    font-size: 1.1rem;
+    /* Smaller name font on mobile */
   }
 
   .right-side p:last-child {
-    font-size: 0.9rem; /* Smaller secondary text */
+    font-size: 0.9rem;
+    /* Smaller secondary text */
   }
 }
 
@@ -625,7 +679,8 @@
   }
 
   .right-side b {
-    font-size: 1rem; /* Even smaller name font */
+    font-size: 1rem;
+    /* Even smaller name font */
   }
 
   .right-side p:last-child {
@@ -636,7 +691,8 @@
 /* Grid Container */
 .grid-containerp {
   display: flex;
-  justify-content: space-between; /* Space between left and right boxes */
+  justify-content: space-between;
+  /* Space between left and right boxes */
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
@@ -647,7 +703,8 @@
 /* Left Box (Content) */
 .left-boxp {
   flex: 1;
-  max-width: 60%; /* Left box takes up more space */
+  max-width: 60%;
+  /* Left box takes up more space */
 }
 
 .contentp {
@@ -658,24 +715,28 @@
 
 .contentp h2 {
   font-size: 2rem;
-  color: #000000; /* Custom color for emphasis */
+  color: #000000;
+  /* Custom color for emphasis */
   margin-bottom: 15px;
 }
 
 .contentp br {
-  margin-bottom: 10px; /* Adds space between lines when using <br /> */
+  margin-bottom: 10px;
+  /* Adds space between lines when using <br /> */
 }
 
 /* Right Box (Button) */
 .right-boxp {
-  flex: 0 0 auto; /* Button should be its natural size */
+  flex: 0 0 auto;
+  /* Button should be its natural size */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .buttonp {
-  background-color: #6a5fff; /* Custom button color */
+  background-color: #6a5fff;
+  /* Custom button color */
   color: white;
   padding: 12px 25px;
   border: none;
@@ -686,34 +747,42 @@
 }
 
 .buttonp:hover {
-  background-color: #5a4bd9; /* Darker shade of the button color when hovered */
+  background-color: #5a4bd9;
+  /* Darker shade of the button color when hovered */
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .grid-containerp {
-    flex-direction: column; /* Stack content and button on smaller screens */
+    flex-direction: column;
+    /* Stack content and button on smaller screens */
     align-items: center;
-    text-align: center; /* Center text for smaller screens */
+    text-align: center;
+    /* Center text for smaller screens */
   }
 
   .left-boxp {
-    max-width: 100%; /* Make left box full width on smaller screens */
-    margin-bottom: 20px; /* Add space between content and button */
+    max-width: 100%;
+    /* Make left box full width on smaller screens */
+    margin-bottom: 20px;
+    /* Add space between content and button */
   }
 
   .right-boxp {
-    max-width: 100%; /* Button takes full width on smaller screens */
+    max-width: 100%;
+    /* Button takes full width on smaller screens */
   }
 }
 
 @media (max-width: 768px) {
   .contentp {
-    font-size: 1rem; /* Adjust font size for mobile screens */
+    font-size: 1rem;
+    /* Adjust font size for mobile screens */
   }
 
   .buttonp {
-    font-size: 1rem; /* Adjust button font size */
+    font-size: 1rem;
+    /* Adjust button font size */
   }
 }
 
@@ -738,7 +807,8 @@
 /* The main grid box that contains all the headings (aligned in a row) */
 .grid-boxf {
   display: flex;
-  flex-direction: column; /* Arrange the headings vertically */
+  flex-direction: column;
+  /* Arrange the headings vertically */
   width: 80%;
   max-width: 1200px;
   padding: 20px;
@@ -763,16 +833,19 @@
 /* Heading section with icon */
 .heading-sectionf {
   display: flex;
-  justify-content: space-between; /* Align heading to the left and button to the right */
+  justify-content: space-between;
+  /* Align heading to the left and button to the right */
   align-items: center;
-  width: 100%; /* Make sure it takes up 100% width */
+  width: 100%;
+  /* Make sure it takes up 100% width */
 }
 
 .heading-sectionf h2 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: bold;
-  width: 100%; /* Heading takes full width */
+  width: 100%;
+  /* Heading takes full width */
 }
 
 
@@ -795,15 +868,18 @@
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .grid-boxf {
-    width: 80%; /* Adjust width for smaller screens */
+    width: 80%;
+    /* Adjust width for smaller screens */
   }
 
   .grid-itemf {
-    padding: 15px; /* Increase padding for better touch targets */
+    padding: 15px;
+    /* Increase padding for better touch targets */
   }
 
   .heading-sectionf h2 {
-    font-size: 1.1rem; /* Slightly smaller heading */
+    font-size: 1.1rem;
+    /* Slightly smaller heading */
   }
 
 
@@ -811,68 +887,84 @@
 
 @media (max-width: 992px) {
   .grid-boxf {
-    width: 95%; /* Full width on smaller screens */
+    width: 95%;
+    /* Full width on smaller screens */
   }
 
   .grid-itemf {
-    padding: 12px; /* Adjust padding */
+    padding: 12px;
+    /* Adjust padding */
   }
 
   .heading-sectionf h2 {
-    font-size: 1rem; /* Further reduce heading size */
+    font-size: 1rem;
+    /* Further reduce heading size */
   }
 
-.product-card1 ,.product-card2,.product-card3 {
-  margin-left: 20px;
-  width: 400px;
-}
-  
+  .product-card1,
+  .product-card2,
+  .product-card3 {
+    margin-left: 20px;
+    width: 400px;
+  }
+
   .content {
-    font-size: 0.9rem; /* Smaller content text */
+    font-size: 0.9rem;
+    /* Smaller content text */
   }
 }
 
 @media (max-width: 768px) {
   .grid-containerf {
-    height: auto; /* Allow height to adjust */
-    padding: 10px; /* Reduce padding */
+    height: auto;
+    /* Allow height to adjust */
+    padding: 10px;
+    /* Reduce padding */
   }
 
   .grid-boxf {
-    padding: 15px; /* Adjust padding */
+    padding: 15px;
+    /* Adjust padding */
   }
 
   .grid-itemf {
-    margin-bottom: 5px; /* Reduce margin */
+    margin-bottom: 5px;
+    /* Reduce margin */
   }
 
   .heading-sectionf h2 {
-    font-size: 0.9rem; /* Further reduce heading size */
+    font-size: 0.9rem;
+    /* Further reduce heading size */
   }
 
-  
+
 
   .content {
-    font-size: 0.8rem; /* Smaller content text */
+    font-size: 0.8rem;
+    /* Smaller content text */
   }
 }
 
 @media (max-width: 480px) {
   .grid-boxf {
-    padding: 10px; /* Reduce padding */
+    padding: 10px;
+    /* Reduce padding */
   }
 
   .grid-itemf {
-    margin-bottom: 5px; /* Reduce margin */
+    margin-bottom: 5px;
+    /* Reduce margin */
   }
 
   .heading-sectionf h2 {
-    font-size: 0.8rem; /* Further reduce heading size */
+    font-size: 0.8rem;
+    /* Further reduce heading size */
   }
 
 
   .content {
-    font-size: 0.7rem; /* Smaller content text */
+    font-size: 0.7rem;
+    /* Smaller content text */
   }
 }
 
@@ -881,17 +973,22 @@
 @keyframes fadeSlideIn {
   0% {
     opacity: 0;
-    transform: translateY(50px); /* Slide in from bottom */
+    transform: translateY(50px);
+    /* Slide in from bottom */
   }
+
   100% {
     opacity: 1;
-    transform: translateY(0); /* End in normal position */
+    transform: translateY(0);
+    /* End in normal position */
   }
 }
 
 /* Apply the animation to the content and image */
 .content,
-.product-card1, .product-card2, .product-card3,
+.product-card1,
+.product-card2,
+.product-card3,
 .left-side .image {
   animation: fadeSlideIn 1s ease-out forwards;
 }
@@ -920,23 +1017,28 @@
 /* For screens with a max width of 700px */
 @media (max-width: 700px) {
 
-  .headingproj{
+  .headingproj {
     font-size: 1.5rem;
-  
+
   }
+
   /* Adjust card layout */
 
   .section-heading {
     margin-top: -2rem;
-    font-size: 1.5rem; /* Smaller heading */
+    font-size: 1.5rem;
+    /* Smaller heading */
   }
+
   .header-button {
-   margin-top: -6%;
+    margin-top: -6%;
   }
-  .headin-m{
-   text-align: center;
+
+  .headin-m {
+    text-align: center;
     font-size: 2rem;
   }
+
   .cards-container {
     flex-direction: column;
     align-items: center;
@@ -945,9 +1047,12 @@
   .product-card1,
   .product-card2,
   .product-card3 {
-    width: 100%; /* Make cards full width */
-    height: 30rem; /* Let the cards adjust height */
-    margin-left: 0; /* Remove any left margin */
+    width: 100%;
+    /* Make cards full width */
+    height: 30rem;
+    /* Let the cards adjust height */
+    margin-left: 0;
+    /* Remove any left margin */
   }
 
 
@@ -956,11 +1061,13 @@
   }
 
   .card-title {
-    font-size: 16px; /* Adjust title font size */
+    font-size: 16px;
+    /* Adjust title font size */
   }
 
   .card-description {
-    font-size: 14px; /* Adjust description font size */
+    font-size: 14px;
+    /* Adjust description font size */
   }
 
   .card-actions {
@@ -971,12 +1078,13 @@
   .book-now,
   .view-more {
     margin-left: 40px;
-    width: 70%; /* Make buttons full width */
+    width: 70%;
+    /* Make buttons full width */
   }
 
   .main-container {
     flex-direction: column;
-    
+
   }
 
 
@@ -987,21 +1095,26 @@
   }
 
   .right-side p {
-    font-size: 1rem; /* Adjust text size on smaller screens */
+    font-size: 1rem;
+    /* Adjust text size on smaller screens */
   }
-  .contentp b{
+
+  .contentp b {
     font-size: 1.7rem;
   }
-  .contentp{
+
+  .contentp {
     text-align: left;
   }
-  .faqh{
+
+  .faqh {
     font-size: 1.8rem;
   }
 }
 
 /* For screens with a max width of 400px */
 @media (max-width: 400px) {
+
   /* Adjust card layout for very small screens */
   .cards-container {
     padding: 10px;
@@ -1010,17 +1123,22 @@
   .product-card1,
   .product-card2,
   .product-card3 {
-    width: 100%; /* Make cards full width */
-    height: 30rem; /* Let the cards adjust height */
-    margin-left: 0; /* Remove any left margin */
+    width: 100%;
+    /* Make cards full width */
+    height: 30rem;
+    /* Let the cards adjust height */
+    margin-left: 0;
+    /* Remove any left margin */
   }
 
   .card-title {
-    font-size: 14px; /* Further reduce title size */
+    font-size: 14px;
+    /* Further reduce title size */
   }
 
   .card-description {
-    font-size: 12px; /* Further reduce description size */
+    font-size: 12px;
+    /* Further reduce description size */
   }
 
   .card-actions {
@@ -1030,7 +1148,8 @@
 
   .book-now,
   .view-more {
-    font-size: 0.9rem; /* Smaller buttons for tiny screens */
+    font-size: 0.9rem;
+    /* Smaller buttons for tiny screens */
     padding: 8px 0;
   }
 
@@ -1046,12 +1165,14 @@
   }
 
   .right-side p {
-    font-size: 0.9rem; /* Further reduce font size for smaller screens */
+    font-size: 0.9rem;
+    /* Further reduce font size for smaller screens */
   }
 
   .heading {
-  margin-top: 40px;
-    font-size: 1.9rem; /* Smaller heading */
+    margin-top: 40px;
+    font-size: 1.9rem;
+    /* Smaller heading */
   }
 
   /* Grid layout changes for very small screens */
@@ -1062,31 +1183,39 @@
 
   .left-boxp,
   .right-boxp {
-    width: 100%; /* Full width for both content and button */
+    width: 100%;
+    /* Full width for both content and button */
   }
 
   .buttonp {
-    font-size: 1rem; /* Slightly smaller button text */
-    width: 100%; /* Full width for button */
+    font-size: 1rem;
+    /* Slightly smaller button text */
+    width: 100%;
+    /* Full width for button */
   }
 
   .grid-boxf {
-    width: 100%; /* Make the grid box take full width */
+    width: 100%;
+    /* Make the grid box take full width */
   }
 
   .grid-itemf {
     padding: 10px;
-    font-size: 0.8rem; /* Adjust content text size */
+    font-size: 0.8rem;
+    /* Adjust content text size */
   }
 
   .heading-sectionf h2 {
-    font-size: 0.8rem; /* Smaller heading */
+    font-size: 0.8rem;
+    /* Smaller heading */
   }
 
   .content {
-    font-size: 0.7rem; /* Smaller content text */
+    font-size: 0.7rem;
+    /* Smaller content text */
   }
-  .faqh{
+
+  .faqh {
     font-size: 1.8rem;
   }
 }

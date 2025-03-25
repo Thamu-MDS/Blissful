@@ -39,8 +39,8 @@ const Service = () => {
               preserving the beauty and emotion of every scene <br />
             </p>
             <div className="buttons-container1">
-              <button className="know-more-btn1">KNOW MORE</button>
-              <button className="book-now-btn1">BOOK NOW</button>
+              <a href="/About"><button className="know-more-btn1">KNOW MORE</button></a>
+             <a href="/contact"> <button className="book-now-btn1">BOOK NOW</button></a>
             </div>
           </div>
         </div>
@@ -56,8 +56,8 @@ const Service = () => {
               masterpiece that you will cherish forever
             </p>
             <div className="buttons-container2">
-              <button className="know-more-btn2">KNOW MORE</button>
-              <button className="book-now-btn2">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn2">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn2">BOOK NOW</button></a>
             </div>
           </div>
           <div className="right-img2">
@@ -83,8 +83,8 @@ const Service = () => {
               celebration
             </p>
             <div className="buttons-container3">
-              <button className="know-more-btn3">KNOW MORE</button>
-              <button className="book-now-btn3">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn3">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn3">BOOK NOW</button></a>
             </div>
           </div>
         </div>
@@ -102,8 +102,8 @@ const Service = () => {
               impactful
             </p>
             <div className="buttons-container4">
-              <button className="know-more-btn4">KNOW MORE</button>
-              <button className="book-now-btn4">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn4">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn4">BOOK NOW</button></a>
             </div>
           </div>
           <div className="right-img4">
@@ -128,8 +128,8 @@ const Service = () => {
               every guest
             </p>
             <div className="buttons-container5">
-              <button className="know-more-btn5">KNOW MORE</button>
-              <button className="book-now-btn5">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn5">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn5">BOOK NOW</button></a>
             </div>
           </div>
         </div>
@@ -145,8 +145,8 @@ const Service = () => {
               impressions
             </p>
             <div className="buttons-container6">
-              <button className="know-more-btn6">KNOW MORE</button>
-              <button className="book-now-btn6">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn6">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn6">BOOK NOW</button></a>
             </div>
           </div>
           <div className="right-img6">
@@ -171,8 +171,8 @@ const Service = () => {
               and traditions
             </p>
             <div className="buttons-container7">
-              <button className="know-more-btn7">KNOW MORE</button>
-              <button className="book-now-btn7">BOOK NOW</button>
+            <a href="/About"><button className="know-more-btn7">KNOW MORE</button></a>
+            <a href="/contact"> <button className="book-now-btn7">BOOK NOW</button></a>
             </div>
 
           </div>

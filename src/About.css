@@ -397,6 +397,8 @@
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
+
+
   .ourstory {
     flex-direction: column; /* Stack the items vertically on medium screens */
   }
@@ -529,9 +531,96 @@ bottom: 0%;
     font-size: 1rem; /* Smaller text size */
   }
 }
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .abtbg {
+    height: 10rem; /* Reduce hero section height */
+  }
+
+  .abtbg h1 {
+    font-size: 2rem; /* Reduce heading size */
+  }
+
+  .abtbg p {
+    font-size: 1rem; /* Adjust text size */
+  }
+
+  .abts2 {
+    grid-template-columns: 1fr; /* Stack items vertically */
+    gap: 5rem;
+  }
+
+  .abts2text {
+    font-size: 1.2rem;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .abts2video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .abts2video video {
+    width: 90%;
+    height: auto;
+  }
+
+  .abts3 {
+    grid-template-columns: 1fr; /* Change to single-column layout */
+  }
+
+  .abts3item {
+    width: 100%;
+  }
+
+  .ourstory {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ourstorytext {
+    font-size: 1.1rem;
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .ourstoryphoto {
+    width: 100%;
+    height: auto;
+  }
+
+  .getstarted {
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .chooseus {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .abts2-btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+
+  .abts3item p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
 
 
-@media (min-width: 400px) and (max-width: 700px) {
+
+@media (min-width: 400px) {
   .abtbg h1 {
     font-size: 2.2rem; /* Reduce heading size for better fit */
   }
@@ -625,4 +714,90 @@ bottom: 0%;
     text-align: center;
   }
 
+}
+
+/* General Styles */
+@media (min-width: 1024px) {
+  .abtbg {
+    height: 12rem; /* Reduce hero section height */
+  }
+
+  .abtbg h1 {
+    font-size: 2.5rem; /* Reduce heading size */
+  }
+
+  .abtbg p {
+    font-size: 1.2rem; /* Adjust text size */
+  }
+
+  .abts2 {
+    gap: 10rem; /* Reduce spacing */
+    grid-template-columns: 1fr 1fr; /* Ensure two-column layout */
+    padding: 20px;
+  }
+
+  .abts2text {
+    font-size: 1.5rem;
+    width: 40rem; /* Adjust text width */
+  }
+
+  .abts2video {
+    height: 18rem;
+    width: 28rem;
+  }
+
+  .abts2video video {
+    width: 100%;
+    height: auto;
+  }
+
+  .abts3 {
+    grid-template-columns: repeat(3, 1fr); /* Change to 2-column layout */
+    gap: 20px;
+  }
+
+  .ourstory {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .ourstorytext {
+    font-size: 1.3rem;
+    max-width: 45%;
+    padding-right: 15px;
+  }
+
+  .ourstoryphoto {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .getstarted {
+    height: 90vh; /* Adjust section height */
+    background-size: cover;
+  }
+
+  .abts5 {
+    grid-template-columns: repeat(4, 1fr); /* 3 columns instead of 4 */
+  }
+
+  .chooseus {
+    height: 90vh;
+  }
+
+  .abts2-btn {
+    font-size: 1rem;
+    padding: 12px 25px; /* Adjust button size */
+  }
+
+  .abts3item {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .manwithphototext p {
+    font-size: 1.1rem; /* Adjust text size */
+    text-align: justify;
+  }
 }

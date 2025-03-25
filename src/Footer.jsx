@@ -52,10 +52,10 @@ const Footer = () => {
         <div className="footer-column">
           <h2>RESOURCES</h2>
           <ul>
-            <li><a href="/event-planning-guides">Event Planning Guides</a></li>
-            <li><a href="/upcoming-events">Upcoming Events</a></li>
-            <li><a href="/media-gallery">Media Gallery</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/">Event Planning Guides</a></li>
+            <li><a href="/">Upcoming Events</a></li>
+            <li><a href="/">Media Gallery</a></li>
+            <li><a href="/">Blog</a></li>
           </ul>
         </div>
 
@@ -63,12 +63,12 @@ const Footer = () => {
         <div className="footer-column">
           <h2>CONTACT US</h2>
           <ul>
-          <li><a href="/event-planning-guides">33RD ST,GKM COLONY,CHENNAI,TAMILNADU</a></li>
-            <li><a href="/upcoming-events">Upcoming Events</a></li>
-            <li><a href="/media-gallery">Media Gallery</a></li>
-            <li><a href="/blog">Blog</a></li>
+          <li><a href="/">33RD ST,GKM COLONY,CHENNAI,TAMILNADU</a></li>
+            <li><a href="/">Upcoming Events</a></li>
+            <li><a href="/">Media Gallery</a></li>
+            <li><a href="/">Blog</a></li>
           </ul>
-          <button className="contact-button">Get in Touch</button>
+         <a href="/contact"> <button className="contact-button">Get in Touch</button></a>
         </div>
       </div>
     </footer>

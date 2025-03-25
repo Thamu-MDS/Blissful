@@ -7,24 +7,24 @@ const Home = () => {
   const items = [
     {
       title: "What types of events do you organize ?",
-      content: "This is content for Heading 1",
+      content: "At Blissful Occasions, we specialize in organizing a wide range of events, including weddings, corporate events, birthday parties, anniversaries, and more. Whether it's an intimate gathering or a large-scale celebration",
     },
     {
       title: "Can you handle destination events ?",
-      content: "This is content for Heading 2",
+      content: "Yes, we specialize in handling destination events, offering seamless and unforgettable experiences no matter where your celebration takes you. From stunning venues to local cultural touches",
     },
     {
       title: "How do you ensure the quality of your services?",
-      content: "This is content for Heading 3",
+      content: "We guarantee top-notch service by blending creativity, precision, and trusted partnerships. Our team is dedicated to delivering flawless experiences, constantly refining our approach to exceed every expectation.",
     },
     {
       title:
         " How can I get started with planning my event with Blissful Occasions?",
-      content: "This is content for Heading 4",
+      content: "Getting started with Blissful Occasions is easy! Simply reach out to us through our website or contact us directly to schedule an initial consultation.",
     },
     {
       title: "What is your pricing structure ?",
-      content: "This is content for Heading 5",
+      content: "Our pricing is customized based on your event’s needs and scope. We’ll provide a detailed cost breakdown during the consultation to ensure it fits your budget while delivering top-quality service.",
     },
   ];
 
@@ -145,32 +145,33 @@ const Home = () => {
                 <p>A powerful magic—the ability to capture and preserve memories</p>
               </div>
               <div className="card-actions">
-                <button className="book-now">BOOK NOW </button>
-                <button className="view-more">More Like This → </button>
+               <a href="/Contact"> <button className="book-now">BOOK NOW </button></a>
+               <a href="/Services"> <button className="view-more">More Like This → </button></a>
               </div>
             </div>
           </div>
           <div className="product-card2" >
             <div className="card-content">
-              <h2 className="card-title">Product 2</h2>
+              <h2 className="card-title">VIDEOGRAPHY</h2>
               <div className="card-description">
-                <p>This is product 2 description.</p>
+                <p>we specialize in capturing the essence of Captivating Videos </p>
               </div>
               <div className="card-actions">
-                <button className="book-now">BOOK NOW </button>
-                <button className="view-more">More Like This →</button>
+              <a href="/Contact"> <button className="book-now">BOOK NOW </button></a>
+              <a href="/Services"> <button className="view-more">More Like This → </button></a>
               </div>
             </div>
           </div>
           <div className="product-card3" >
             <div className="card-content">
-              <h2 className="card-title">Product 3</h2>
+              <h2 className="card-title">DECORATION</h2>
               <div className="card-description">
-                <p>This is product 3 description.</p>
+                <p>Transforming spaces
+                with elegance and creativity</p>
               </div>
               <div className="card-actions">
-                <button className="book-now">BOOK NOW </button>
-                <button className="view-more">More Like This →</button>
+              <a href="/Contact"> <button className="book-now">BOOK NOW </button></a>
+              <a href="/Services"> <button className="view-more">More Like This → </button></a>
               </div>
             </div>
           </div>
@@ -243,7 +244,7 @@ const Home = () => {
 
         {/* Right Box (Button) */}
         <div className="right-boxp">
-          <button className="buttonp">Click Me</button>
+        <a href="/contact">  <button className="buttonp">Click Me</button></a>
         </div>
       </div>
       <hr />
