@@ -49,7 +49,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/contact", formData);
+     const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/contact`, formData);
       alert(response.data.message);
       setFormData({
         firstName: "",
