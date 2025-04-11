@@ -44,7 +44,7 @@ const Contact = () => {
     if (!formData.message) formErrors.message = "Message is required.";
     
     if (Object.keys(formErrors).length > 0) {
-      setErrors(formErrors);  // Show validation errors
+      setErrors(formErrors);  // Show validation errorsp
       return;
     }
 
